@@ -1,0 +1,9 @@
+Name: OtwayRees
+Title: Otway-Rees cryptographic protocol
+Author: Dominique Bolignano and Valérie Ménissier-Morain
+Institution: GIE Dyade, VIP action
+Description:
+A description and a proof of correctness for
+the Otway-Rees cryptographic protocol, usually used as an example for
+                   formalisation of such protocols.
+Keywords: cryptographic protocol, Otway-Rees
