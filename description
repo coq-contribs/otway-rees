@@ -7,3 +7,4 @@ A description and a proof of correctness for
 the Otway-Rees cryptographic protocol, usually used as an example for
                    formalisation of such protocols.
 Keywords: cryptographic protocol, Otway-Rees
+Category: Computer Science/Concurrent Systems and Protocols/Correctness of specific protocols
