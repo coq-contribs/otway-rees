@@ -6,5 +6,5 @@ Description:
 A description and a proof of correctness for
 the Otway-Rees cryptographic protocol, usually used as an example for
                    formalisation of such protocols.
-Keywords: cryptographic protocol, Otway-Rees
+Keywords: Otway-Rees, protocols, cryptography
 Category: Computer Science/Concurrent Systems and Protocols/Correctness of specific protocols
