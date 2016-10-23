@@ -41,7 +41,7 @@ apply
     (Encrypt
        (quad (B2C (D2B d17)) (B2C (D2B d4)) (B2C (D2B d16)) (B2C (D2B Bid)))
        (KeyX Bid) :: c :: l ++ rngDDKKeyAB).
-auto with otway_rees v62.
+auto with otway_rees.
 unfold quad in |- *.
 repeat apply C2 || apply C3 || apply C4.
 elim know_c_c0_l; intros know_c_l t.
@@ -76,7 +76,7 @@ apply
     (Encrypt
        (quad (B2C (D2B d17)) (B2C (D2B d4)) (B2C (D2B d16)) (B2C (D2B Bid)))
        (KeyX Bid) :: c :: l ++ rngDDKKeyAB).
-auto with otway_rees v62.
+auto with otway_rees.
 unfold quad in |- *.
 repeat apply C2 || apply C3 || apply C4.
 elim know_c_c0_l; intros know_c_l t.

@@ -40,11 +40,11 @@ apply
   with
     (Encrypt (Pair (B2C (D2B d3)) (B2C (K2B (KeyAB d0 d1)))) (KeyX d1)
      :: B2C (K2B (KeyAB d0 d1)) :: l ++ rngDDKKeyAB).
-auto with otway_rees v62.
+auto with otway_rees.
 repeat apply C2 || apply C3 || apply C4.
 apply equivncomp with (B2C (K2B (KeyAB d0 d1)) :: l ++ rngDDKKeyAB).
 apply AlreadyIn1.
-unfold In in |- *; left; auto with otway_rees v62.
+unfold In in |- *; left; auto with otway_rees.
 apply equivncomp with (l ++ rngDDKKeyAB).
 apply equivS3.
 apply AlreadyIn1b.
@@ -70,11 +70,11 @@ apply
   with
     (Encrypt (Pair (B2C (D2B d3)) (B2C (K2B (KeyAB d0 d1)))) (KeyX d1)
      :: B2C (K2B (KeyAB d0 d1)) :: l ++ rngDDKKeyAB).
-auto with otway_rees v62.
+auto with otway_rees.
 repeat apply C2 || apply C3 || apply C4.
 apply equivncomp with (B2C (K2B (KeyAB d0 d1)) :: l ++ rngDDKKeyAB).
 apply AlreadyIn1.
-unfold In in |- *; left; auto with otway_rees v62.
+unfold In in |- *; left; auto with otway_rees.
 apply equivncomp with (l ++ rngDDKKeyAB).
 apply equivS3.
 apply AlreadyIn1b.

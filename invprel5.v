@@ -45,12 +45,12 @@ apply D1.
 apply EP1 with rngDDKKeyAB.
 apply equivnknown1 with (B2C (K2B (KeyX Bid))) (l ++ rngDDKKeyAB).
 apply equivS4 with (l ++ rngDDKKeyABminusKab ++ rngDDKKeyAB).
-elim l; simpl in |- *; auto with otway_rees v62.
+elim l; simpl in |- *; auto with otway_rees.
 exact rngs.
 rewrite (app_ass l rngDDKKeyABminusKab rngDDKKeyAB).
 elim l; elim rngDDKKeyABminusKab; elim rngDDKKeyAB; simpl in |- *;
- auto with otway_rees v62.
-auto with otway_rees v62.
+ auto with otway_rees.
+auto with otway_rees.
 assumption.
 discriminate.
 discriminate.
@@ -66,7 +66,7 @@ apply
 apply equivS2.
 repeat apply C2 || apply C3 || apply C4.
 apply equivncomp with (B2C (K2B (KeyAB d0 d1)) :: l ++ rngDDKKeyABminusKab).
-apply AlreadyIn1; unfold In in |- *; left; auto with otway_rees v62.
+apply AlreadyIn1; unfold In in |- *; left; auto with otway_rees.
 apply equivncomp with (l ++ rngDDKKeyABminusKab).
 apply AlreadyIn1; apply in_or_app; right. 
 apply rngDDKKeyABminusKab1; apply KeyAB1.
