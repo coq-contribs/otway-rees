@@ -76,7 +76,7 @@ Hint Resolve equivS1a equivS1b equivS2 equivS4 AlreadyIn1 AlreadyIn1b
 Lemma equivS3 : forall s1 s2 : list C, equivS s1 s2 -> equivS s2 s1.
 
 Proof.
-intros s1 s2 equiv; elim equiv; eauto with otway_rees v62.
+intros s1 s2 equiv; elim equiv; eauto with otway_rees.
 Qed.
 
 Fixpoint setofkeys (s : list C) : Prop :=
@@ -147,7 +147,7 @@ elim H0.
 unfold not in |- *; intros.
 apply H1.
 apply (equivknown c1 s2 s1).
-elim H; simpl in |- *; eauto with otway_rees v62.
+elim H; simpl in |- *; eauto with otway_rees.
 exact H2.
 Qed.
 
